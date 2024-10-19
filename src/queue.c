@@ -36,13 +36,13 @@ void queue_print(char *name, queue_t *queue, void print_elem(void *))
     while (true)
     {
         print_elem(element);
-        printf(" ");
         element = element->next;
 
         if (element == initial_element)
         {
             break;
         }
+        printf(" ");
     }
     printf("]\n");
 
