@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdbool.h>
-#include "queue.h"
+#include "../include/queue.h"
 
 int queue_size(queue_t *queue)
 {
